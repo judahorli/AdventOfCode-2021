@@ -7,7 +7,7 @@ import java.util.*;
 public class DumboOctopus {
     private final static String octopusFile = "/Users/judahperillo/IdeaProjects/AdventOfCode-2021/resources/day11/dumbo.txt";
     ArrayList<Cave> caves = new ArrayList<>();
-    HashMap<int[], Cave> map = new HashMap<>();
+    Map<int[], Cave> map = new HashMap<>();
     int flashCount = 0;
 
     public DumboOctopus() {
